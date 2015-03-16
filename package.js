@@ -1,7 +1,7 @@
 Package.describe({
   name: 'viacdn:bootstrap',
   summary: 'Bootstrap via CDN for Meteor',
-  version: '0.3.2',
+  version: '3.3.2',
   git: 'https://github.com/dealable/meteor-bootstrap-cdn.git'
 });
 

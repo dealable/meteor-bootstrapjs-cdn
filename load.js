@@ -1,4 +1,3 @@
-var head = document.getElementsByTagName('head')[0];
 var style = document.createElement('link');
 var theme = document.createElement('link');
 var script = document.createElement('script');
@@ -13,6 +12,6 @@ theme.href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-them
 
 script.src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js";
 
-head.appendChild(style);
-head.appendChild(theme);
-head.appendChild(script);
+document.head.appendChild(style);
+document.head.appendChild(theme);
+document.head.appendChild(script);
